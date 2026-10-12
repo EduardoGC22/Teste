@@ -21,11 +21,9 @@
 
 </body>
 </html>
-function somar() {
-    let numero1 = Number(document.getElementById("numero1").value);
-    let numero2 = Number(document.getElementById("numero2").value);
+<input id="numero1" type="number">
+<input id="numero2" type="number">
 
-    let resultado = numero1 + numero2;
+<button onclick="somar()">Somar</button>
 
-    document.getElementById("resultado").textContent = "Resultado: " + resultado;
-}
+<p id="resultado"></p>
